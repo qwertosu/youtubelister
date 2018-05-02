@@ -22,6 +22,7 @@ class YoutubeActivity : YouTubeBaseActivity(), YoutubeActivityContract.View, You
     }
 
     override fun init() {
+        //init
         youtubeView.initialize(ConstantUtils.youtubeApiKey, this)
     }
 
